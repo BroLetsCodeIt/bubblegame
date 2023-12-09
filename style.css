@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(64,184,188,1) 82%, rgba(0,212,255,1) 100%); */
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innermain{
+    width: 90%;
+    overflow: hidden;
+    height: 90%;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color:#00BFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.elem{
+    /* width: auto; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.elem h3{
+    font-size: larger;
+    color: white;
+}
+.elem .box{
+    color:black;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+   width: 100%;
+   height: calc(100% - 80px);
+   /* background-color: red; */
+   padding: 0.4rem;
+}
+.middle .circle{
+    font-size: x-large;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;
+}
+
