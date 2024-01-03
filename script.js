@@ -16,7 +16,7 @@ function increasescore(){
 function circles(){
     var newdiv  = '';
 
-    for(let i  = 0 ; i < 10 * 24 ; i++){
+    for(let i  = 0 ; i < 10 * 28 ; i++){
     //     // step 1 : create the new div
     // const newdiv = document.createElement('div');
     
