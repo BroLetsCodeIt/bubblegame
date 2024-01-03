@@ -56,9 +56,17 @@ html,body{
 }
 .middle{
    width: 100%;
-   height: calc(100% - 80px);
+   height: 100%;
+   /* height: calc(100% - 80px); */
    /* background-color: red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.3vw;
    padding: 0.4rem;
+   flex-wrap: wrap;
+   flex-direction: column;
+   /* overflow: auto; */
 }
 .middle .circle{
     font-size: x-large;
@@ -69,5 +77,6 @@ html,body{
     justify-content: center;
     border-radius: 50%;
     background-color: red;
+    cursor: pointer;
 }
 
