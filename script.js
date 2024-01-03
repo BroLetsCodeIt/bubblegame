@@ -32,7 +32,7 @@ function circles(){
 }
 
 
-var time = 3;
+var time = 30;
 function timingfun(){
     //    console.log('hello')
   
