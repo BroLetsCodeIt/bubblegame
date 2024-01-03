@@ -65,7 +65,7 @@ html,body{
    gap: 0.3vw;
    padding: 0.4rem;
    flex-wrap: wrap;
-   flex-direction: column;
+   /* flex-direction: column; */
    /* overflow: auto; */
 }
 .middle .circle{
